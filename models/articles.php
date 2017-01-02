@@ -59,7 +59,25 @@ function articles_new($link, $title, $date, $content){
     return true;
 }
 function articles_edit($link, $id, $title, $date, $content){
+    $title = trim($title);   //Обрезаем пробелы по краям
+    $content = trim($content);
+    $date = trim($date);
+    $id = (int)$id;
+    //ПРОВЕРКА
+    if ($title == '')
+        return false;
     
+    //Запрос
+    $sql = "UPDATE articles SET title='%s', content='%s', date'%s' WHERE id='%d'";
+    
+    $query = sprintf($sql, mysqli_real_escape_string($link, $title),mysqli_real_escape_string($link, $content),mysqli_real_escape_string($link, $date), $id);
+    
+    $result = mysqli_query($link, $query);
+    
+    if (!$result)
+        die(mysqli_error($link));
+    
+    return mysqli_affected_rows($link);
 }
 function articles_delete($id){
     

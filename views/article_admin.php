@@ -10,7 +10,7 @@
         <div class="container">
             <h1>Блог для задания</h1>
             <div>
-                <form method="post" action="index.php?action=add">
+                <form method="post" action="index.php?action=<?=$_GET['action']?>&id=<?=$_GET['id']?>">
                     <label>
                         Название
                         <input type="text" name="title" value="<?=$article['title']?>" class="form-item" autofocus required>
