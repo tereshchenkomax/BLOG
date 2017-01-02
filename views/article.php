@@ -11,19 +11,13 @@
             <h1>Блог для задания</h1>
             <div>
                 <div class="article">
-                    <h3>Заголовок 1</h3>
-                    <em>Опубликовано 02-01-2016</em>
-                    <p>Статья</p>    
+                    <h3><?=$article['title']?></h3>
+                    <em>Опубликовано: <?=$article['date']?></em>
+                    <p><?=$article['content']?></p>    
                 </div>
-                
-                <div class="article">
-                <h3>Заголовок 2</h3>
-                <em>Опубликовано 02-01-2016</em>
-                <p>Статья 2</p>    
                 </div>
             </div>
-            <footer>
+                <footer>
             <p>Блог для задания<br>Copyright&copy;2017</p></footer>
-        </div>
-    </body>
+            </body>
 </html>

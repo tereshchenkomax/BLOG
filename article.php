@@ -1,4 +1,7 @@
 <?php
+    require_once("database.php");
+    require_once("models/articles.php");
 
-    echo "Article";
+    $article = articles_get($_GET["id"]);
+    include("views/article.php");
 ?>
