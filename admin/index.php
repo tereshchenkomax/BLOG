@@ -14,6 +14,15 @@
             articles_new($link, $_POST['title'], $_POST['date'],  $_POST['content']);
             header("Location: index.php");
         }
+        
+        $article = array(
+
+        'title' => "Введите название статьи",
+
+        'content' => "Введите текст статьи"
+
+    );
+        
         include("../views/article_admin.php");
             }else if($action == "edit"){
                 if(!isset($_GET['id']))
