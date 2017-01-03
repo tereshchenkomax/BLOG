@@ -27,9 +27,9 @@
                         </tr>
             <?php endforeach;?>
         </table>
-                <?php foreach($articles as $a): ?>
-                
-                <?php endforeach ?>                
+<!--                --><?php //foreach($articles as $a): ?>
+<!--                -->
+<!--                --><?php //endforeach ?><!--                -->
                 </div>
             </div>
             <footer>
