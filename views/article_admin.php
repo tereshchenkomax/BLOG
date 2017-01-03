@@ -16,10 +16,6 @@
                         <input type="text" name="title" value="<?=$article['title']?>" class="form-item" autofocus required>
                     </label>
                     <label>
-                        Дата
-                        <input type="date" name="date" value="<?=$article['date']?>" class="form-item" required>
-                    </label>
-                    <label>
                         Содержимое
                         <textarea name="content" class="form-item" required><?=$article['content']?></textarea>
                     </label>

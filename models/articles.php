@@ -33,7 +33,8 @@ function articles_get($link, $id_article){
             
     return $article;
 }
-function articles_new($link, $title, $date, $content){
+function articles_new($link, $title, $content){
+    $date = date("Y-m-d H:i:s");
     //Подготовка
     $title = trim($title);
     $content = trim($content);
@@ -43,10 +44,9 @@ function articles_new($link, $title, $date, $content){
         return false;
     
     //Запрос
-    $t = "INSERT INTO articles (title, date, content) VALUES ('%s', '%s', '%s')";
+    $t = "INSERT INTO articles (title, content) VALUES ('%s', '%s')";
     
     $query = sprintf($t, mysqli_real_escape_string($link, $title),
-                     mysqli_real_escape_string($link,$date),
                      mysqli_real_escape_string($link,$content));
     
     echo $query;
@@ -57,19 +57,18 @@ function articles_new($link, $title, $date, $content){
     
     return true;
 }
-function articles_edit($link, $id, $title, $date, $content){
+function articles_edit($link, $id, $title, $content){
     $title = trim($title);   //Обрезаем пробелы по краям
     $content = trim($content);
-    $date = trim($date);
     $id = (int)$id;
     //ПРОВЕРКА
     if ($title == '')
         return false;
     
     //Запрос
-    $sql = "UPDATE articles SET title='%s', content='%s', date'%s' WHERE id='%d'";
+    $sql = "UPDATE articles SET title='%s', content='%s' WHERE id='%d'";
     
-    $query = sprintf($sql, mysqli_real_escape_string($link, $title),mysqli_real_escape_string($link, $content),mysqli_real_escape_string($link, $date), $id);
+    $query = sprintf($sql, mysqli_real_escape_string($link, $title),mysqli_real_escape_string($link, $content), $id);
     
     $result = mysqli_query($link, $query);
     

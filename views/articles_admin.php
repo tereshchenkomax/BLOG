@@ -13,15 +13,17 @@
             <div>
                 <table class="admin-table" style="width: 100%">
                         <tr>
-                            <th>Дата</th>
                             <th>Заголовок</th>
+                            <th>Добавлено</th>
+                            <th>Обновлено</th>
                             <th></th>
                             <th></th>
                         </tr>
                         <?php foreach ($articles as $a): ?>
                         <tr>
-                            <td><?=$a['date']?></td>
                             <td><?=$a['title']?></td>
+                            <td><?=$a['data_created']?></td>
+                            <td><?=$a['data_updated']?></td>
                             <td><a href="index.php?action=edit&id=<?=$a['id']?>">Редактировать</a></td>
                             <td><a href="index.php?action=delete&id=<?=$a['id']?>">Удалить</a></td>
                         </tr>
