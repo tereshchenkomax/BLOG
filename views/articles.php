@@ -15,7 +15,7 @@
                 <div class="article">
                     <h3><a href="article.php?id=<?=$a['id']?>"><?=$a['title']?></a></h3>
                     <em>Создано <?=$a['data_created']?></em>
-                    <em>Изменено <?=$a['data_updated']?></em>
+<!--                    <em>Изменено --><?//=$a['data_updated']?><!--</em>-->
                     <p><?=articles_intro($a['content'])?></p>
                 </div>
                 <?php endforeach ?>                

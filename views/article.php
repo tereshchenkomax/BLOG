@@ -12,8 +12,8 @@
             <div>
                 <div class="article">
                     <h3><?=$article['title']?></h3>
-                    <em>Создано <?=$a['data_created']?></em>
-                    <em>Изменено <?=$a['data_updated']?></em>
+                    <em>Создано <?=$article['data_created']?></em>
+                    <em>Изменено <?=$article['data_updated']?></em>
                     <p><?=$article['content']?></p>    
                 </div>
                 </div>
