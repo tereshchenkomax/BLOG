@@ -4,10 +4,12 @@ require_once("../models/articles.php");
 
 $link = db_connect();
 //Первое условие
-if (isset($_GET['action']))
-    $action = $_GET['action'];
-else
-    $action = "";
+//if (isset($_GET['action']))
+//    $action = $_GET['action'];
+//else
+//    $action = "";
+$action = isset( $_GET['action'] ) ? $_GET['action'] : "";
+
 // 2-е
 if ($action == "add") {
     //Обьявили массив
