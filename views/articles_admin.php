@@ -10,7 +10,7 @@
 <body>
 <div class="container">
     <h1>Блог для задания</h1>
-    <a href="index.php?action=add">Добавить статью</a>
+    <a href="index.php?action=add" class="btn btn-info">Добавить статью</a>
     <div>
         <table class="admin-table" style="width: 100%">
             <tr>

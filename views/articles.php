@@ -9,7 +9,7 @@
     <body>
         <div class="container">
             <h1>Блог для задания</h1>
-            <a href="admin">Панель администратора</a>
+            <a href="admin" class="btn btn-primary">Панель администратора</a>
             <div>
                 <?php foreach($articles as $a): ?>
                 <div class="article">
