@@ -8,7 +8,7 @@
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
-<div class="container">
+<div class="container-fluid">
     <h1>Блог для задания</h1>
     <a href="index.php?action=add" class="btn btn-info">Добавить статью</a>
     <div>
@@ -34,5 +34,6 @@
 </div>
 <footer>
     <p>Блог для задания<br>Copyright&copy;2017</p></footer>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
 </body>
 </html>
