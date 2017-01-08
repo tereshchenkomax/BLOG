@@ -1,3 +1,13 @@
+<?php
+setcookie("count","$count",time()+3600*24);
+$count = $_COOKIE['count'];
+if(!isset($count)){
+    $count = 0;
+}
+$count++;
+//setcookie("count","$count",time()+3600*24);
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,6 +26,8 @@
             <em>Создано <?= $article['data_created'] ?></em>
             <em>Изменено <?= $article['data_updated'] ?></em>
             <p><?= $article['content'] ?></p>
+            <p>Количество просмотров <?=$count;?></p>
+            <a href="index.php?action=count&id=<?= $article['id'] ?>">
         </div>
     </div>
 </div>
