@@ -1,6 +1,5 @@
 <?php
 setcookie("count", "$count", time() + 3600 * 24 - (3600 * getdate()['hours'] + 60 * getdate()['minutes'] + getdate()['seconds']));
-
 $count = $_COOKIE['count'];
 if(!isset($count)){
     $count = 0;
@@ -28,7 +27,6 @@ $count++;
             <em>Изменено <?= $article['data_updated'] ?></em>
             <p><?= $article['content'] ?></p>
             <p>Количество просмотров <?=$count;?></p>
-            <a href="index.php?action=count&id=<?= $article['id'] ?>">
         </div>
     </div>
 </div>
