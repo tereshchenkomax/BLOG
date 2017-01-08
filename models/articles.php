@@ -1,5 +1,19 @@
 <?php
 
+function articles_views($link, $id)
+{
+    $ip = $_SERVER["REMOTE_ADDR"]; // узнали IP пользователя
+    $query = mysqli_query("SELECT `ip` from news_show where `ip` = '$ip'");
+    $resultcount = mysqli_fetch_array($query);
+    if (isset($query['ip'])) {
+        exit;
+    } else {
+        // апдейтим кол-во уник просмотров
+        $newcount = $resultcount["count"] + 1;
+        mysqli_query("UPDATE articles SET count='$newcount' WHERE news_id='$id'", $link);
+    }
+}
+
 function articles_all($link)
 {
     //Запрос
@@ -22,7 +36,6 @@ function articles_all($link)
 
 }
 
-;
 function articles_get($link, $id_article)
 {
     //Запрос
