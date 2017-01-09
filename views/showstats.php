@@ -1,6 +1,6 @@
 <?php
 
-$res1 = mysqli_query($link, "SELECT 'views','hosts' FROM visits WHERE 'date'= '$date'");
+$res1 = mysqli_query($link, "SELECT views,hosts FROM visits WHERE date = '$date'");
 $row = mysqli_fetch_assoc($res1);
 
 echo '<br>Уникальных посетителей: ' . $row['hosts'] . '</br>';

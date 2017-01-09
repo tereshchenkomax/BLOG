@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d877e5da-424a-43f2-ae14-298119260237" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/count.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/index.php" afterPath="$PROJECT_DIR$/admin/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/article.php" afterPath="$PROJECT_DIR$/article.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/article.php" afterPath="$PROJECT_DIR$/views/article.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/article_admin.php" afterPath="$PROJECT_DIR$/views/article_admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/articles.php" afterPath="$PROJECT_DIR$/views/articles.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/articles_admin.php" afterPath="$PROJECT_DIR$/views/articles_admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/count.php" afterPath="$PROJECT_DIR$/count.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/showstats.php" afterPath="$PROJECT_DIR$/views/showstats.php" />
     </list>
     <ignored path="blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,7 +24,7 @@
     <favorites_list name="blog" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.47283238">
+    <splitter split-orientation="vertical" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="article.php" pinned="false" current-in-tab="false">
@@ -46,14 +39,13 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="articles.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="articles.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/models/articles.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="657">
-                  <caret line="57" column="9" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="9" />
+                <state relative-caret-position="159">
+                  <caret line="93" column="88" selection-start-line="93" selection-start-column="86" selection-end-line="93" selection-end-column="88" />
                   <folding>
                     <element signature="e#7#44#0#PHP" expanded="true" />
-                    <element signature="n#articles_edit#0;n#!!top" expanded="false" />
                     <element signature="n#articles_delete#0;n#!!top" expanded="false" />
                     <marker date="1483910269452" expanded="true" signature="143:181" ph="SELECT `coun... articles" />
                     <marker date="1483910269452" expanded="true" signature="143:182" ph="SELECT `coun... articles" />
@@ -82,14 +74,38 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="showstats.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="showstats.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/views/showstats.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+                <state relative-caret-position="34">
+                  <caret line="2" column="73" selection-start-line="2" selection-start-column="73" selection-end-line="2" selection-end-column="73" />
                   <folding>
-                    <marker date="1483961962506" expanded="true" signature="36:77" ph="SELECT 'view... " />
-                    <marker date="1483961962506" expanded="true" signature="36:92" ph="SELECT 'view... visits" />
+                    <marker date="1483970664797" expanded="true" signature="36:73" ph="SELECT 'view... " />
+                    <marker date="1483970664797" expanded="true" signature="36:87" ph="SELECT views... visits" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="count.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/count.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="425">
+                  <caret line="26" column="69" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="69" />
+                  <folding>
+                    <marker date="1483970790007" expanded="true" signature="213:252" ph="SELECT 'visi... " />
+                    <marker date="1483970790007" expanded="true" signature="213:260" ph="SELECT 'visi... visits" />
+                    <marker date="1483970790007" expanded="true" signature="213:262" ph="SELECT 'visi... " />
+                    <marker date="1483970790007" expanded="true" signature="454:468" ph="DELETE FROM " />
+                    <marker date="1483970790007" expanded="true" signature="525:561" ph="INSERT INTO ip... " />
+                    <marker date="1483970790007" expanded="true" signature="525:575" ph="INSERT INTO " />
+                    <marker date="1483970790007" expanded="true" signature="656:721" ph="INSERT INTO visits... " />
+                    <marker date="1483970790007" expanded="true" signature="828:878" ph="SELECT 'ip_i... " />
+                    <marker date="1483970790007" expanded="true" signature="979:1148" ph="..." />
+                    <marker date="1483970790007" expanded="true" signature="1044:1083" ph="UPDATE visit... " />
+                    <marker date="1483970790007" expanded="true" signature="1044:1096" ph="UPDATE visit... " />
+                    <marker date="1483970790007" expanded="true" signature="1186:1236" ph="INSERT INTO " />
+                    <marker date="1483970790007" expanded="true" signature="1292:1361" ph="UPDATE visit... " />
                   </folding>
                 </state>
               </provider>
@@ -109,57 +125,26 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="articles.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/models/articles.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="32">
-                  <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-                  <folding>
-                    <element signature="n#articles_all#0;n#!!top" expanded="false" />
-                    <marker date="1483910269452" expanded="true" signature="143:181" ph="SELECT `coun... articles" />
-                    <marker date="1483910269452" expanded="true" signature="143:182" ph="SELECT `coun... articles" />
-                    <marker date="1483910269452" expanded="true" signature="143:184" ph="SELECT `coun... articles" />
-                    <marker date="1483910269452" expanded="true" signature="143:185" ph="SELECT `coun... articles" />
-                    <marker date="1483910269452" expanded="true" signature="143:235" ph="SELECT `coun... articles" />
-                    <marker date="1483910269452" expanded="true" signature="324:387" ph="UPDATE artic... " />
-                    <marker date="1483910269452" expanded="true" signature="592:649" ph="UPDATE artic... " />
-                    <marker date="1483910269452" expanded="true" signature="733:772" ph="SELECT * FRO... articles" />
-                    <marker date="1483910269452" expanded="true" signature="1174:1208" ph="SELECT * FRO... articles" />
-                    <marker date="1483910269452" expanded="true" signature="1637:1713" ph="INSERT INTO articles... " />
-                    <marker date="1483910269452" expanded="true" signature="2294:2371" ph="UPDATE artic... " />
-                    <marker date="1483910269452" expanded="true" signature="2861:2895" ph="DELETE FROM " />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="count.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/count.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+                <state relative-caret-position="174">
+                  <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
                   <folding>
-                    <marker date="1483965836248" expanded="true" signature="213:256" ph="SELECT 'visi... " />
-                    <marker date="1483965836248" expanded="true" signature="213:264" ph="SELECT 'visi... visits" />
-                    <marker date="1483965836248" expanded="true" signature="213:266" ph="SELECT 'visi... " />
-                    <marker date="1483965836248" expanded="true" signature="430:444" ph="DELETE FROM " />
-                    <marker date="1483965836248" expanded="true" signature="501:549" ph="INSERT INTO " />
-                    <marker date="1483965836248" expanded="true" signature="630:689" ph="INSERT INTO " />
-                    <marker date="1483965836248" expanded="true" signature="767:821" ph="SELECT 'ip_i... " />
-                    <marker date="1483965836248" expanded="true" signature="919:975" ph="UPDATE visit... " />
-                    <marker date="1483965836248" expanded="true" signature="1042:1086" ph="INSERT INTO " />
-                    <marker date="1483965836248" expanded="true" signature="1142:1217" ph="UPDATE visit... " />
+                    <marker date="1483970790007" expanded="true" signature="213:252" ph="SELECT 'visi... " />
+                    <marker date="1483970790007" expanded="true" signature="213:260" ph="SELECT 'visi... visits" />
+                    <marker date="1483970790007" expanded="true" signature="213:262" ph="SELECT 'visi... " />
+                    <marker date="1483970790007" expanded="true" signature="454:468" ph="DELETE FROM " />
+                    <marker date="1483970790007" expanded="true" signature="525:561" ph="INSERT INTO ip... " />
+                    <marker date="1483970790007" expanded="true" signature="525:575" ph="INSERT INTO " />
+                    <marker date="1483970790007" expanded="true" signature="656:721" ph="INSERT INTO visits... " />
+                    <marker date="1483970790007" expanded="true" signature="828:878" ph="SELECT 'ip_i... " />
+                    <marker date="1483970790007" expanded="true" signature="1044:1083" ph="UPDATE visit... " />
+                    <marker date="1483970790007" expanded="true" signature="1044:1089" ph="UPDATE visit... " />
+                    <marker date="1483970790007" expanded="true" signature="1044:1096" ph="UPDATE visit... " />
+                    <marker date="1483970790007" expanded="true" signature="1186:1236" ph="INSERT INTO " />
+                    <marker date="1483970790007" expanded="true" signature="1292:1361" ph="UPDATE visit... " />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="articles_admin.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/views/articles_admin.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -366,12 +351,12 @@
       <workItem from="1483642853090" duration="4569000" />
       <workItem from="1483649069789" duration="2417000" />
       <workItem from="1483905361273" duration="6959000" />
-      <workItem from="1483919328878" duration="12835000" />
+      <workItem from="1483919328878" duration="16808000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42902000" />
+    <option name="totallyTimeSpent" value="46875000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -389,7 +374,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.178125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="124" y="396" width="1096" height="800" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="70" y="372" width="1096" height="800" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33757225" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -465,7 +450,8 @@
         <state relative-caret-position="713">
           <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
           <folding>
-            <element signature="n#articles_all#0;n#!!top" expanded="false" />
+            <element signature="e#7#44#0#PHP" expanded="true" />
+            <element signature="n#articles_delete#0;n#!!top" expanded="false" />
             <marker date="1483910269452" expanded="true" signature="143:181" ph="SELECT `coun... articles" />
             <marker date="1483910269452" expanded="true" signature="143:182" ph="SELECT `coun... articles" />
             <marker date="1483910269452" expanded="true" signature="143:184" ph="SELECT `coun... articles" />
@@ -570,7 +556,8 @@
         <state relative-caret-position="663">
           <caret line="109" column="2" selection-start-line="109" selection-start-column="2" selection-end-line="109" selection-end-column="2" />
           <folding>
-            <element signature="n#articles_all#0;n#!!top" expanded="false" />
+            <element signature="e#7#44#0#PHP" expanded="true" />
+            <element signature="n#articles_delete#0;n#!!top" expanded="false" />
             <marker date="1483910269452" expanded="true" signature="143:181" ph="SELECT `coun... articles" />
             <marker date="1483910269452" expanded="true" signature="143:182" ph="SELECT `coun... articles" />
             <marker date="1483910269452" expanded="true" signature="143:184" ph="SELECT `coun... articles" />
@@ -673,14 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/articles_admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/article.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -705,23 +684,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/showstats.php">
+    <entry file="file://$PROJECT_DIR$/views/articles_admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <marker date="1483961962506" expanded="true" signature="36:77" ph="SELECT 'view... " />
-            <marker date="1483961962506" expanded="true" signature="36:92" ph="SELECT 'view... visits" />
-          </folding>
+        <state relative-caret-position="249">
+          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/articles.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="159">
+          <caret line="93" column="88" selection-start-line="93" selection-start-column="86" selection-end-line="93" selection-end-column="88" />
           <folding>
-            <element signature="n#articles_all#0;n#!!top" expanded="false" />
+            <element signature="e#7#44#0#PHP" expanded="true" />
+            <element signature="n#articles_delete#0;n#!!top" expanded="false" />
             <marker date="1483910269452" expanded="true" signature="143:181" ph="SELECT `coun... articles" />
             <marker date="1483910269452" expanded="true" signature="143:182" ph="SELECT `coun... articles" />
             <marker date="1483910269452" expanded="true" signature="143:184" ph="SELECT `coun... articles" />
@@ -738,21 +715,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/showstats.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="73" selection-start-line="2" selection-start-column="73" selection-end-line="2" selection-end-column="73" />
+          <folding>
+            <marker date="1483970664797" expanded="true" signature="36:73" ph="SELECT 'view... " />
+            <marker date="1483970664797" expanded="true" signature="36:87" ph="SELECT views... visits" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/count.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        <state relative-caret-position="174">
+          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
           <folding>
-            <marker date="1483965836248" expanded="true" signature="213:256" ph="SELECT 'visi... " />
-            <marker date="1483965836248" expanded="true" signature="213:264" ph="SELECT 'visi... visits" />
-            <marker date="1483965836248" expanded="true" signature="213:266" ph="SELECT 'visi... " />
-            <marker date="1483965836248" expanded="true" signature="430:444" ph="DELETE FROM " />
-            <marker date="1483965836248" expanded="true" signature="501:549" ph="INSERT INTO " />
-            <marker date="1483965836248" expanded="true" signature="630:689" ph="INSERT INTO " />
-            <marker date="1483965836248" expanded="true" signature="767:821" ph="SELECT 'ip_i... " />
-            <marker date="1483965836248" expanded="true" signature="919:975" ph="UPDATE visit... " />
-            <marker date="1483965836248" expanded="true" signature="1042:1086" ph="INSERT INTO " />
-            <marker date="1483965836248" expanded="true" signature="1142:1217" ph="UPDATE visit... " />
+            <marker date="1483970790007" expanded="true" signature="213:252" ph="SELECT 'visi... " />
+            <marker date="1483970790007" expanded="true" signature="213:260" ph="SELECT 'visi... visits" />
+            <marker date="1483970790007" expanded="true" signature="213:262" ph="SELECT 'visi... " />
+            <marker date="1483970790007" expanded="true" signature="454:468" ph="DELETE FROM " />
+            <marker date="1483970790007" expanded="true" signature="525:561" ph="INSERT INTO ip... " />
+            <marker date="1483970790007" expanded="true" signature="525:575" ph="INSERT INTO " />
+            <marker date="1483970790007" expanded="true" signature="656:721" ph="INSERT INTO visits... " />
+            <marker date="1483970790007" expanded="true" signature="828:878" ph="SELECT 'ip_i... " />
+            <marker date="1483970790007" expanded="true" signature="1044:1083" ph="UPDATE visit... " />
+            <marker date="1483970790007" expanded="true" signature="1044:1089" ph="UPDATE visit... " />
+            <marker date="1483970790007" expanded="true" signature="1044:1096" ph="UPDATE visit... " />
+            <marker date="1483970790007" expanded="true" signature="1186:1236" ph="INSERT INTO " />
+            <marker date="1483970790007" expanded="true" signature="1292:1361" ph="UPDATE visit... " />
           </folding>
         </state>
       </provider>
