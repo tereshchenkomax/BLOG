@@ -24,7 +24,7 @@ if (mysqli_num_rows($res) == 0) {
     //not unique ip
     if (mysqli_num_rows($current_ip) == 1) {
         echo ('Не уникальный ИП');
-        mysqli_query($link, "UPDATE visits SET views='views'+1 WHERE date='$date'");//+1 view 4 this date //WHERE date='$date'//
+        mysqli_query($link, "UPDATE visits SET views='views'+1 ");//+1 view 4 this date //WHERE date='$date'//
     } else {
         mysqli_query($link, "INSERT INTO ip(`ip_adress`) VALUES ('$visitor_ip')");//adding new ip to base
         mysqli_query($link, "UPDATE visits SET hosts='hosts'+1, views='views'+1 WHERE date='$date'");//+1 new(hosts + view)

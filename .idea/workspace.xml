@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d877e5da-424a-43f2-ae14-298119260237" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/count.php" afterPath="$PROJECT_DIR$/count.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/showstats.php" afterPath="$PROJECT_DIR$/views/showstats.php" />
     </list>
     <ignored path="blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -91,21 +90,20 @@
             <entry file="file://$PROJECT_DIR$/count.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="425">
-                  <caret line="26" column="69" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="69" />
+                  <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
                   <folding>
-                    <marker date="1483970790007" expanded="true" signature="213:252" ph="SELECT 'visi... " />
-                    <marker date="1483970790007" expanded="true" signature="213:260" ph="SELECT 'visi... visits" />
-                    <marker date="1483970790007" expanded="true" signature="213:262" ph="SELECT 'visi... " />
-                    <marker date="1483970790007" expanded="true" signature="454:468" ph="DELETE FROM " />
-                    <marker date="1483970790007" expanded="true" signature="525:561" ph="INSERT INTO ip... " />
-                    <marker date="1483970790007" expanded="true" signature="525:575" ph="INSERT INTO " />
-                    <marker date="1483970790007" expanded="true" signature="656:721" ph="INSERT INTO visits... " />
-                    <marker date="1483970790007" expanded="true" signature="828:878" ph="SELECT 'ip_i... " />
-                    <marker date="1483970790007" expanded="true" signature="979:1148" ph="..." />
-                    <marker date="1483970790007" expanded="true" signature="1044:1083" ph="UPDATE visit... " />
-                    <marker date="1483970790007" expanded="true" signature="1044:1096" ph="UPDATE visit... " />
-                    <marker date="1483970790007" expanded="true" signature="1186:1236" ph="INSERT INTO " />
-                    <marker date="1483970790007" expanded="true" signature="1292:1361" ph="UPDATE visit... " />
+                    <marker date="1483972793409" expanded="true" signature="213:252" ph="SELECT 'visi... " />
+                    <marker date="1483972793409" expanded="true" signature="213:260" ph="SELECT 'visi... visits" />
+                    <marker date="1483972793409" expanded="true" signature="213:262" ph="SELECT 'visi... " />
+                    <marker date="1483972793409" expanded="true" signature="454:468" ph="DELETE FROM " />
+                    <marker date="1483972793409" expanded="true" signature="525:561" ph="INSERT INTO ip... " />
+                    <marker date="1483972793409" expanded="true" signature="525:575" ph="INSERT INTO " />
+                    <marker date="1483972793409" expanded="true" signature="656:721" ph="INSERT INTO visits... " />
+                    <marker date="1483972793409" expanded="true" signature="828:878" ph="SELECT 'ip_i... " />
+                    <marker date="1483972793409" expanded="true" signature="979:1130" ph="..." />
+                    <marker date="1483972793409" expanded="true" signature="1044:1078" ph="UPDATE visit... " />
+                    <marker date="1483972793409" expanded="true" signature="1168:1218" ph="INSERT INTO " />
+                    <marker date="1483972793409" expanded="true" signature="1274:1343" ph="UPDATE visit... " />
                   </folding>
                 </state>
               </provider>
@@ -129,21 +127,20 @@
             <entry file="file://$PROJECT_DIR$/count.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="174">
-                  <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+                  <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
                   <folding>
-                    <marker date="1483970790007" expanded="true" signature="213:252" ph="SELECT 'visi... " />
-                    <marker date="1483970790007" expanded="true" signature="213:260" ph="SELECT 'visi... visits" />
-                    <marker date="1483970790007" expanded="true" signature="213:262" ph="SELECT 'visi... " />
-                    <marker date="1483970790007" expanded="true" signature="454:468" ph="DELETE FROM " />
-                    <marker date="1483970790007" expanded="true" signature="525:561" ph="INSERT INTO ip... " />
-                    <marker date="1483970790007" expanded="true" signature="525:575" ph="INSERT INTO " />
-                    <marker date="1483970790007" expanded="true" signature="656:721" ph="INSERT INTO visits... " />
-                    <marker date="1483970790007" expanded="true" signature="828:878" ph="SELECT 'ip_i... " />
-                    <marker date="1483970790007" expanded="true" signature="1044:1083" ph="UPDATE visit... " />
-                    <marker date="1483970790007" expanded="true" signature="1044:1089" ph="UPDATE visit... " />
-                    <marker date="1483970790007" expanded="true" signature="1044:1096" ph="UPDATE visit... " />
-                    <marker date="1483970790007" expanded="true" signature="1186:1236" ph="INSERT INTO " />
-                    <marker date="1483970790007" expanded="true" signature="1292:1361" ph="UPDATE visit... " />
+                    <marker date="1483972793409" expanded="true" signature="213:252" ph="SELECT 'visi... " />
+                    <marker date="1483972793409" expanded="true" signature="213:260" ph="SELECT 'visi... visits" />
+                    <marker date="1483972793409" expanded="true" signature="213:262" ph="SELECT 'visi... " />
+                    <marker date="1483972793409" expanded="true" signature="454:468" ph="DELETE FROM " />
+                    <marker date="1483972793409" expanded="true" signature="525:561" ph="INSERT INTO ip... " />
+                    <marker date="1483972793409" expanded="true" signature="525:575" ph="INSERT INTO " />
+                    <marker date="1483972793409" expanded="true" signature="656:721" ph="INSERT INTO visits... " />
+                    <marker date="1483972793409" expanded="true" signature="828:878" ph="SELECT 'ip_i... " />
+                    <marker date="1483972793409" expanded="true" signature="1044:1077" ph="UPDATE visit... " />
+                    <marker date="1483972793409" expanded="true" signature="1044:1078" ph="UPDATE visit... " />
+                    <marker date="1483972793409" expanded="true" signature="1168:1218" ph="INSERT INTO " />
+                    <marker date="1483972793409" expanded="true" signature="1274:1343" ph="UPDATE visit... " />
                   </folding>
                 </state>
               </provider>
@@ -351,12 +348,12 @@
       <workItem from="1483642853090" duration="4569000" />
       <workItem from="1483649069789" duration="2417000" />
       <workItem from="1483905361273" duration="6959000" />
-      <workItem from="1483919328878" duration="16808000" />
+      <workItem from="1483919328878" duration="17372000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46875000" />
+    <option name="totallyTimeSpent" value="47439000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -729,21 +726,20 @@
     <entry file="file://$PROJECT_DIR$/count.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
-          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+          <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
           <folding>
-            <marker date="1483970790007" expanded="true" signature="213:252" ph="SELECT 'visi... " />
-            <marker date="1483970790007" expanded="true" signature="213:260" ph="SELECT 'visi... visits" />
-            <marker date="1483970790007" expanded="true" signature="213:262" ph="SELECT 'visi... " />
-            <marker date="1483970790007" expanded="true" signature="454:468" ph="DELETE FROM " />
-            <marker date="1483970790007" expanded="true" signature="525:561" ph="INSERT INTO ip... " />
-            <marker date="1483970790007" expanded="true" signature="525:575" ph="INSERT INTO " />
-            <marker date="1483970790007" expanded="true" signature="656:721" ph="INSERT INTO visits... " />
-            <marker date="1483970790007" expanded="true" signature="828:878" ph="SELECT 'ip_i... " />
-            <marker date="1483970790007" expanded="true" signature="1044:1083" ph="UPDATE visit... " />
-            <marker date="1483970790007" expanded="true" signature="1044:1089" ph="UPDATE visit... " />
-            <marker date="1483970790007" expanded="true" signature="1044:1096" ph="UPDATE visit... " />
-            <marker date="1483970790007" expanded="true" signature="1186:1236" ph="INSERT INTO " />
-            <marker date="1483970790007" expanded="true" signature="1292:1361" ph="UPDATE visit... " />
+            <marker date="1483972793409" expanded="true" signature="213:252" ph="SELECT 'visi... " />
+            <marker date="1483972793409" expanded="true" signature="213:260" ph="SELECT 'visi... visits" />
+            <marker date="1483972793409" expanded="true" signature="213:262" ph="SELECT 'visi... " />
+            <marker date="1483972793409" expanded="true" signature="454:468" ph="DELETE FROM " />
+            <marker date="1483972793409" expanded="true" signature="525:561" ph="INSERT INTO ip... " />
+            <marker date="1483972793409" expanded="true" signature="525:575" ph="INSERT INTO " />
+            <marker date="1483972793409" expanded="true" signature="656:721" ph="INSERT INTO visits... " />
+            <marker date="1483972793409" expanded="true" signature="828:878" ph="SELECT 'ip_i... " />
+            <marker date="1483972793409" expanded="true" signature="1044:1077" ph="UPDATE visit... " />
+            <marker date="1483972793409" expanded="true" signature="1044:1078" ph="UPDATE visit... " />
+            <marker date="1483972793409" expanded="true" signature="1168:1218" ph="INSERT INTO " />
+            <marker date="1483972793409" expanded="true" signature="1274:1343" ph="UPDATE visit... " />
           </folding>
         </state>
       </provider>
