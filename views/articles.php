@@ -22,8 +22,7 @@
         <?php endforeach ?>
     </div>
 </div>
-<footer>
-    <p>Блог для задания<br>Copyright&copy;2017</p></footer>
+
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 </body>
 </html>

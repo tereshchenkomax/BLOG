@@ -45,4 +45,4 @@ if ($action == "add") {
     include("../views/articles_admin.php");
 }
 
-?>
+include ('../views/footer.php');

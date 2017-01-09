@@ -1,11 +1,11 @@
 <?php
-setcookie("count", "$count", time() + 3600 * 24 - (3600 * getdate()['hours'] + 60 * getdate()['minutes'] + getdate()['seconds']));
-$count = $_COOKIE['count'];
-if(!isset($count)){
-    $count = 0;
-}
-$count++;
-//setcookie("count","$count",time()+3600*24);
+//include '../models/count.php';
+//setcookie("count", "$count", time() + 3600 * 24 - (3600 * getdate()['hours'] + 60 * getdate()['minutes'] + getdate()['seconds']));
+//$count = $_COOKIE['count'];
+//if(!isset($count)){
+//    $count = 0;
+//}
+//$count++;
 
 ?>
 <!DOCTYPE html>
@@ -26,12 +26,11 @@ $count++;
             <em>Создано <?= $article['data_created'] ?></em>
             <em>Изменено <?= $article['data_updated'] ?></em>
             <p><?= $article['content'] ?></p>
-            <p>Количество просмотров <?=$count;?></p>
         </div>
     </div>
 </div>
-<footer>
-    <p>Блог для задания<br>Copyright&copy;2017</p></footer>
+
 <script src="http://code.jquery.com/jquery-latest.js"></script>
+
 </body>
 </html>

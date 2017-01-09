@@ -23,8 +23,6 @@
             <input type="submit" value="Сохранить" class="btn">
         </form>
     </div>
-    <footer>
-        <p>Блог для задания<br>Copyright&copy;2017</p></footer>
 </div>
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 </body>
