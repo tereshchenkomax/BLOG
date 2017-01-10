@@ -8,7 +8,7 @@
                 <div class="article col-lg-12">
                     <h3><a href="article.php?id=<?= $a['id'] ?>"><?= $a['title'] ?></a></h3>
                     <p class="article_trimmed"><?= articles_intro($a['content']) ?></p>
-                    <em>Создано : <?= $a['data_created'] ?></em>
+                    <em class="creation_date">Создано : <?= $a['data_created'] ?></em>
                     <em>Изменено : <?= $a['data_updated'] ?></em>
                 </div>
 

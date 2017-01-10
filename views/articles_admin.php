@@ -11,7 +11,7 @@
 </head>
 <body>
 <div class="container-fluid">
-    <h1>Блог для задания</h1>
+    <h2 class="admin_head">Панель администратора</h2>
     <a href="index.php?action=add" class="btn btn-large">Добавить статью</a>
     <div>
         <table class="admin-table" style="width: 100%">
