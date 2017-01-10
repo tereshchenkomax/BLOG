@@ -20,9 +20,9 @@
             </label1>
             <label2>
                 Содержимое
-                <textarea class="form-control" rows="20" name="content" class="form-item" required><?= $article['content'] ?></textarea>
+                <textarea class="form-control" rows="15" name="content" class="form-item" required><?= $article['content'] ?></textarea>
             </label2>
-            <input type="submit" value="Сохранить" class="btn">
+            <input type="submit" value="Сохранить" class="btn center-block">
         </form>
     </div>
 </div>
