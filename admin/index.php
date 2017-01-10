@@ -1,14 +1,9 @@
 <?php
 require_once("../database.php");
 require_once("../models/articles.php");
-
+//1-e условие
 $link = db_connect();
-//Первое условие
-//if (isset($_GET['action']))
-//    $action = $_GET['action'];
-//else
-//    $action = "";
-$action = isset( $_GET['action'] ) ? $_GET['action'] : "";
+$action = isset($_GET['action']) ? $_GET['action'] : "";
 
 // 2-е
 if ($action == "add") {
@@ -31,7 +26,7 @@ if ($action == "add") {
     $id = (int)$_GET['id'];
 
     if (!empty($_POST) && $id > 0) {
-        articles_edit($link, $id, $_POST['title'], $_POST['content']);
+        articles_edit($link, $id, $_POST['title'], $_POST['content'], $_FILES['file']);
         header("Location: index.php");
     }
     $article = articles_get($link, $id);
@@ -45,4 +40,4 @@ if ($action == "add") {
     include("../views/articles_admin.php");
 }
 
-include ('../views/footer.php');
+include('../views/footer.php');

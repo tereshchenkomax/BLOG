@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="lib/owl/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="lib/owl/dist/assets/owl.theme.default.min.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
 </head>
 <body class="container-fluid">
 <header class="row">
