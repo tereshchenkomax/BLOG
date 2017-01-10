@@ -1,29 +1,52 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>Блог для задания</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-</head>
-<body>
-<div class="container-fluid">
-    <h1>Блог для задания</h1>
-    <a href="admin" class="btn btn-primary">Панель администратора</a>
-    <div>
-        <?php foreach ($articles as $a): ?>
-            <div class="article">
-                <h3><a href="article.php?id=<?= $a['id'] ?>"><?= $a['title'] ?></a></h3>
-                <p><?= articles_intro($a['content']) ?></p>
-                <em>Создано : <?= $a['data_created'] ?></em>
-                <em>Изменено : <?= $a['data_updated'] ?></em>
-            </div>
-        <?php endforeach ?>
+<main class="row">
+    <section class="main_top">
+<!--        <h2 class="text-center">Fitness blog 2000</h2>-->
+    </section>
+    <div class="container">
+        <div class="row">
+            <?php foreach ($articles as $a): ?>
+                <div class="article col-lg-12">
+                    <h3><a href="article.php?id=<?= $a['id'] ?>"><?= $a['title'] ?></a></h3>
+                    <p class="article_trimmed"><?= articles_intro($a['content']) ?></p>
+                    <em>Создано : <?= $a['data_created'] ?></em>
+                    <em>Изменено : <?= $a['data_updated'] ?></em>
+                </div>
+
+            <?php endforeach ?>
+
+        </div>
     </div>
-</div>
-<footer>
-    <p>Блог для задания<br>Copyright&copy;2017</p></footer>
-<script src="http://code.jquery.com/jquery-latest.js"></script>
-</body>
-</html>
+    <div class="owl-carousel owl-theme">
+        <div class="item"><h4>1</h4></div>
+        <div class="item"><h4>2</h4></div>
+        <div class="item"><h4>3</h4></div>
+        <div class="item"><h4>4</h4></div>
+        <div class="item"><h4>5</h4></div>
+        <div class="item"><h4>6</h4></div>
+        <div class="item"><h4>7</h4></div>
+        <div class="item"><h4>8</h4></div>
+        <div class="item"><h4>9</h4></div>
+        <div class="item"><h4>10</h4></div>
+        <div class="item"><h4>11</h4></div>
+        <div class="item"><h4>12</h4></div>
+    </div>
+    <script>
+        $('.owl-carousel').owl-carousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:5
+                }
+            }
+        })
+    </script>
+</main>
+
