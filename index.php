@@ -1,5 +1,6 @@
 <?php
     require_once ("database.php");
+    include ('views/header.php');
     require_once ("models/articles.php");
     include('count.php');
 
