@@ -22,6 +22,9 @@ header{
     width: 150px;
 
 }
+.admin_head{
+    text-align: center ;
+}
 .admin_login{
     padding: 54px 0;
     display: inline-block;
@@ -56,8 +59,11 @@ header{
 .article{
     padding-bottom: 26px;
 }
+.creation_date{
+    padding-right: 2%;
+}
 footer{
-
+    padding-top: 2%;
 }
 /*swing*/
 @-webkit-keyframes swing {

@@ -11,17 +11,17 @@
 </head>
 <body>
 <div class="container">
-    <h1>Блог для задания</h1>
+    <h2 class="admin_head">Панель администратора</h2>
     <div>
         <form method="post" action="index.php?action=<?= $_GET['action'] ?>&id=<?= $_GET['id'] ?>">
-            <label>
+            <label1>
                 Название
-                <input type="text" name="title" value="<?= $article['title'] ?>" class="form-item" autofocus required>
-            </label>
-            <label>
+                <input type="text" class="form-control" name="title" value="<?= $article['title'] ?>" class="form-item" autofocus required>
+            </label1>
+            <label2>
                 Содержимое
-                <textarea name="content" class="form-item" required><?= $article['content'] ?></textarea>
-            </label>
+                <textarea class="form-control" rows="20" name="content" class="form-item" required><?= $article['content'] ?></textarea>
+            </label2>
             <input type="submit" value="Сохранить" class="btn">
         </form>
     </div>
